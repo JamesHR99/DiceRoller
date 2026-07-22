@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb2002501f264db8b34d559d8f0d89f, type: 3}
+  m_Name: ArcherShot_L1
+  m_EditorClassIdentifier: Assembly-CSharp::DiceComboSO
+  comboName: Basic Shot (Level 1)
+  requiredActions: 12000000
+  classRestriction: 4
+  resultActionType: 1
+  baseValue: 25
+  baseSpeed: 10
+  statusEffectType: 0
+  statusEffectDamage: 0
+  statusEffectDuration: 0
+  statusEffectMultiplier: 1
+  priority: 10
+  aiUsageLikelihood: 0.6
+  description: A simple shot. Level 1 deals 25 damage.

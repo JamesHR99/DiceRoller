@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152156337e7eb48bc8ecf73720662c9c, type: 3}
+  m_Name: ArcherClass
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterClassSO
+  className: Archer
+  classDescription: A precise marksman who builds up powerful sequential shots. Master
+    the combo system to unleash devastating Perfect Shots!
+  classIcon: {fileID: 0}
+  baseAgility: 12
+  startingWeapon: {fileID: 11400000, guid: 40ef4ff57c8c34548b9fdf7a5184dbac, type: 2}
+  startingArmor: {fileID: 11400000, guid: 0473801d4ba0a420faeac84c87785452, type: 2}
+  startingItem: {fileID: 11400000, guid: 29d4f2311481d423db8b9fb7be1d9253, type: 2}

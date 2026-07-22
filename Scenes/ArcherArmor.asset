@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c0d51a29dcdb462693ae6723b3883cd, type: 3}
+  m_Name: ArcherArmor
+  m_EditorClassIdentifier: Assembly-CSharp::EquipmentItemSO
+  itemName: Archer's Leather
+  description: Flexible armor for ranged combat. 2 Heal, 2 Block, 2 Regain Stamina
+  itemIcon: {fileID: 0}
+  equipmentSlot: 1
+  itemType: 0
+  specialItemType: 0
+  agilityBonus: 0
+  diceGranted:
+  - {fileID: 11400000, guid: c0586e249cfad411a915582bac59b5dc, type: 2}
+  - {fileID: 11400000, guid: 7797088bf33aa4d0ea986f5e8106f70a, type: 2}
+  - {fileID: 11400000, guid: 36a5e3945a52b49ad96bf435f63035bd, type: 2}

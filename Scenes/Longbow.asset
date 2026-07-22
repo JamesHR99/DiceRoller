@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c0d51a29dcdb462693ae6723b3883cd, type: 3}
+  m_Name: Longbow
+  m_EditorClassIdentifier: Assembly-CSharp::EquipmentItemSO
+  itemName: Longbow
+  description: A powerful bow requiring sequential shots. 3 Level 1 Shot, 2 Level
+    2 Shot, 1 Level 3 Shot
+  itemIcon: {fileID: 0}
+  equipmentSlot: 0
+  itemType: 0
+  specialItemType: 0
+  agilityBonus: 0
+  diceGranted:
+  - {fileID: 11400000, guid: f76dd70762f084ab5806fd63a1e77cb2, type: 2}
+  - {fileID: 11400000, guid: 31fdf64d248be4638adde509980b1304, type: 2}
+  - {fileID: 11400000, guid: 5f6344044ae554827ab1d968e1a3bd93, type: 2}
+  - {fileID: 11400000, guid: 45612d9c4a93d47ffa4b71931653929e, type: 2}

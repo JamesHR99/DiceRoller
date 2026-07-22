@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c0d51a29dcdb462693ae6723b3883cd, type: 3}
+  m_Name: DualDaggers
+  m_EditorClassIdentifier: Assembly-CSharp::EquipmentItemSO
+  itemName: Dual Daggers
+  description: Twin blades for quick strikes. 3 Light Attack (10 damage), 2 Heavy
+    Attack (25 damage), 1 Dodge (10% dodge chance, stacks)
+  itemIcon: {fileID: 0}
+  equipmentSlot: 0
+  itemType: 0
+  specialItemType: 0
+  agilityBonus: 2
+  diceGranted:
+  - {fileID: 11400000, guid: 0bbc4e03b8c3145e2b1b7406042d064e, type: 2}
+  - {fileID: 11400000, guid: 277183a9283704bc398adf8b3ae367d1, type: 2}
+  - {fileID: 11400000, guid: 560ea85c53a904eb399a3e4626ffb3be, type: 2}
+  - {fileID: 11400000, guid: efdeeadbc3faf497e8930fadbd788fb2, type: 2}

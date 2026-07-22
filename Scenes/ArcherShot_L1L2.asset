@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb2002501f264db8b34d559d8f0d89f, type: 3}
+  m_Name: ArcherShot_L1L2
+  m_EditorClassIdentifier: Assembly-CSharp::DiceComboSO
+  comboName: Charged Shot (Level 1+2)
+  requiredActions: 1200000013000000
+  classRestriction: 4
+  resultActionType: 1
+  baseValue: 50
+  baseSpeed: 15
+  statusEffectType: 0
+  statusEffectDamage: 0
+  statusEffectDuration: 0
+  statusEffectMultiplier: 1
+  priority: 20
+  aiUsageLikelihood: 0.8
+  description: A powerful two-stage shot. Level 1 + Level 2 deal 50 damage.
