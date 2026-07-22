@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152156337e7eb48bc8ecf73720662c9c, type: 3}
+  m_Name: Class_Wizard
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterClassSO
+  className: Wizard
+  classDescription: You're a wizard harry
+  classIcon: {fileID: -7223252654011275279, guid: 43b4f9488addd4ac7b6c4d37c46983c6, type: 3}
+  baseAgility: 0
+  startingWeapon: {fileID: 11400000, guid: 20677915cefb946e2a328d748b5a9c7d, type: 2}
+  startingArmor: {fileID: 11400000, guid: e16d183ee233f4988bf33203590d3e25, type: 2}
+  startingItem: {fileID: 11400000, guid: 2258a6cee259c450e8b971e509a4987e, type: 2}

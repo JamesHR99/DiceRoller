@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7894138248736957279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8016901465600149280}
+  - component: {fileID: 6452657783480525540}
+  m_Layer: 0
+  m_Name: SlotMachine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8016901465600149280
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7894138248736957279}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6452657783480525540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7894138248736957279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb0725cec732545b1aba06bcb4c8ee14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dicePrefab: {fileID: 9150722885410663820, guid: 16d2e9a999cd743afa6a5127b31c5f5e, type: 3}
+  playerDiceContainer: {fileID: 0}
+  enemyTurnManager: {fileID: 0}
+  allActionConfigs:
+  - actionType: 1
+    actionSprite: {fileID: -7895825896579843130, guid: 43b4f9488addd4ac7b6c4d37c46983c6, type: 3}
+    baseValue: 25
+    attackSpeed: 0
+  - actionType: 5
+    actionSprite: {fileID: -6647941893113460819, guid: 43b4f9488addd4ac7b6c4d37c46983c6, type: 3}
+    baseValue: 25
+    attackSpeed: 0
+  - actionType: 3
+    actionSprite: {fileID: -5872430175172430469, guid: 43b4f9488addd4ac7b6c4d37c46983c6, type: 3}
+    baseValue: 5
+    attackSpeed: 0
+  - actionType: 6
+    actionSprite: {fileID: 4330327966975571879, guid: 43b4f9488addd4ac7b6c4d37c46983c6, type: 3}
+    baseValue: 1
+    attackSpeed: 0
+  enemyActionConfigurations:
+  - actionType: 1
+    actionSprite: {fileID: -7895825896579843130, guid: 43b4f9488addd4ac7b6c4d37c46983c6, type: 3}
+    baseValue: 10
+    attackSpeed: 1
+  - actionType: 5
+    actionSprite: {fileID: -6647941893113460819, guid: 43b4f9488addd4ac7b6c4d37c46983c6, type: 3}
+    baseValue: 5
+    attackSpeed: 5
+  - actionType: 3
+    actionSprite: {fileID: -5872430175172430469, guid: 43b4f9488addd4ac7b6c4d37c46983c6, type: 3}
+    baseValue: 5
+    attackSpeed: 5
+  spinSpeed: 0.5
+  spinDuration: 2
+  spinButton: {fileID: 0}
+  nextTurnButton: {fileID: 0}
+  scoreText: {fileID: 0}
+  battleManager: {fileID: 0}
+  comboManager: {fileID: 0}
+  stopDelay: 0.3

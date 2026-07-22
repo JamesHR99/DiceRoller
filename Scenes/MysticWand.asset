@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c0d51a29dcdb462693ae6723b3883cd, type: 3}
+  m_Name: MysticWand
+  m_EditorClassIdentifier: Assembly-CSharp::EquipmentItemSO
+  itemName: Mystic Wand
+  description: 'A magical wand that grants 4 dice with incantation faces. Combine
+    incantations to cast powerful spells! Beware: solo incantations are unstable...'
+  itemIcon: {fileID: 0}
+  equipmentSlot: 0
+  itemType: 0
+  specialItemType: 0
+  agilityBonus: 2
+  diceGranted:
+  - {fileID: 11400000, guid: 34331f235da474f0e86aeb0c82ce90ac, type: 2}
+  - {fileID: 11400000, guid: df844c06e8330402c97088afcfceec81, type: 2}
+  - {fileID: 11400000, guid: 853c7561576904c0b9239b60ae377c9c, type: 2}
+  - {fileID: 11400000, guid: a4437db91dbe24dd8a738882c271aa27, type: 2}

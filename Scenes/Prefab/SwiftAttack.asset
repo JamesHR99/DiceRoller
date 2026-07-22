@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb2002501f264db8b34d559d8f0d89f, type: 3}
+  m_Name: SwiftAttack
+  m_EditorClassIdentifier: 
+  comboName: SwiftAttackCombo
+  requiredActions: 050000000500000005000000
+  resultActionType: 5
+  baseValue: 50
+  baseSpeed: 1
+  priority: 0
+  aiUsageLikelihood: 0.75
+  description: A powerful combination!
